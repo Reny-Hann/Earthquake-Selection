@@ -62,7 +62,7 @@ plot([L1,L1],[0,y],':','color',[144/255 190/255 224/255],'linewidth',3);
 set(gca,'fontname','times new roman','fontsize',18);
 xlabel('T (s)','fontsize',20);
 ylabel('$$\alpha$$','fontsize',20,'interpreter','latex');
-legend('Design response spectrum','$$T_g$$','fontsize',14,'fontname','times new roman','interpreter','latex');
+legend('Design response spectrum','$$T_s$$','fontsize',14,'fontname','times new roman','interpreter','latex');
 title('Design response spectrum')
 box off;
 
